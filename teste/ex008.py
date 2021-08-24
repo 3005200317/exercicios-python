@@ -5,4 +5,4 @@ dm = medida * 10
 dam = medida / 10
 hm = medida / 100
 km = medida / 1000
-print('A medida de {}m corresponde a \n {:.0f}cm \n {:.0f}mm \n {:.0f}dm \n {}dam \n {}hm \n {}km'.format(medida, cm ,mm, dm, dam, hm, km))
+print(f'A medida de {medida}m corresponde a \n {cm:.0f}cm \n {mm:.0f}mm \n {dm:.0f}dm \n {dam}dam \n {hm}hm \n {km}km')

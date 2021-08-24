@@ -1,10 +1,11 @@
-'''for c in range(0, 6):
+n = int(input('Digite um numero: '))
+for c in range(n, 0, -1):
     print(c)
-print('fim')'''
+print('fim')
 
-i = int(input('Inicio: '))
+'''i = int(input('Inicio: '))
 f = int(input('Fim:'))
 p = int(input('Passo: '))
 for c in range(i, f+1, p):
     print(c)
-print('FIM')
+print('FIM')'''

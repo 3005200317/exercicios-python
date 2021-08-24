@@ -10,3 +10,4 @@ elif opção == 2:
     print('{} convertido para OCTAL é igual a {}'.format(n1, oct(n1)[2:]))
 else:
     print('{} convertido para HEXADECIMAL é igual a {}'.format(n1, hex(n1)[2:]))
+    
